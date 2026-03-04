@@ -1,0 +1,8 @@
+Study Info,STUDY_SURVEYS_COMPLETED,Total surveys completed (all students on participating campuses),,Total,All Students,35347
+Study Info,STUDY_FINAL_DATASET_ALL,Final dataset students (all students at included US schools),,Total,All Students,33763
+Study Info,STUDY_UNDERGRAD_N,Undergraduate students included in this report,,Total,All Students,25503
+Study Info,STUDY_SCHOOLS,US postsecondary institutions included,,Total,All Students,48
+Study Info,STUDY_RSEX_VALIDN,Valid response count for RSEX groups (from Q67A valid responses line),,Valid responses (Q67A),Cis Men,6752
+Study Info,STUDY_RSEX_VALIDN,Valid response count for RSEX groups (from Q67A valid responses line),,Valid responses (Q67A),Cis Women,16718
+Study Info,STUDY_RSEX_VALIDN,Valid response count for RSEX groups (from Q67A valid responses line),,Valid responses (Q67A),TGNC,1752
+Study Info,STUDY_RSEX_VALIDN,Valid response count for RSEX groups (from Q67A valid responses line),,Valid responses (Q67A),Total,25420
