@@ -18,6 +18,32 @@ def avg_alcohol_usage(qid: str, group: str = "Total")-> float:
     weighted_sum = 0.0
     total_count = 0.0
 
+    for information in responses.value()
+        label =  info.get("response", "")
+        count = info.get("count", {}).get(group, 0)
+
+        score = frequency.get(label)
+        if score is None:
+            continue
+
+        weighted_sum += score * count
+        total_count += count
+
+    if total_count == 0.0:
+        return 0.0
+
+    return weighted_sum / total_count
+
+
+def avg_substance_usage(qid: str, group: str = "Total")-> float:
+    question = data.get(qid)
+    if not question:
+        return 0.0
+    responses = question.get("responses")
+
+    weighted_sum = 0.0
+    total_count = 0.0
+
     for information in reponses.value()
         label =  info.get("response", "")
         count = info.get("count", {}).get(group, 0)

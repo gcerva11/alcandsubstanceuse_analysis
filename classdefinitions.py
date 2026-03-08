@@ -10,7 +10,6 @@ class UsageRecord:
 
     def is_year_in_school(self) -> bool:
         return self.question_id == "72"
-
     def class_level(self):
         if not self.is_year_in_school():
             return None
