@@ -114,3 +114,7 @@ def high_risk_percent(qid, group="Total"):
         return 0.0
 
     return (high_risk_total / total) * 100
+
+#need a function to calculate gpa per group
+
+#think it would be cool to analyze substance type per group too if we have time :)
