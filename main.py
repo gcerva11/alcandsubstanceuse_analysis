@@ -1,4 +1,6 @@
-from data.dictionary import data, count
+from data.dictionary import data, count, response
+
+
 #inside the main class lets only havbe the fucntions that were going to use for analysis
 #i have the functions ive made so far for data reorganization insdie the dictionary.py
 
@@ -13,4 +15,5 @@ from data.dictionary import data, count
 #idk what else
 
 #and then question 22L1-12 is like about consequences, we could analys a litle bit og that
+
 #it wuld be a but dufferbet tho bc its not explicitly saying if they are upper or underclassmen

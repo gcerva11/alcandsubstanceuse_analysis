@@ -1,7 +1,6 @@
 import csv
 import os
 
-
 data = {}
 
 current_dir = os.path.dirname(__file__)
@@ -49,7 +48,21 @@ with open(file_path, newline="", encoding="utf-8") as f:
 # Helper Functions
 #*************
 
-def classify_year(response_label):
+#this function makes sure we can get the diction without the program crashing
+def question(qid:str)-> str:
+    return data.get(str(qid), {})
+
+#this one is going to loop the response in order to get the information for specifc questions
+def responces_loop(qid:str)-> str:
+    question = question(qid)
+    responces = question.get("responces", {})
+    return responces.items() #should return like (responce #, informaton)
+
+#this one is going to get a count
+def getcount(qid, response_code, group="total")
+
+
+def classify_year(response_label:str) -> str:
     under = {
         "1st year undergraduate",
         "2nd year undergraduate",
@@ -68,53 +81,85 @@ def classify_year(response_label):
     return "Other"
 
 #calculates upper and underclassmen percentages (and totals)
-def upper_under_percentages(qid="72", group="Total"):
+#core alaysis function
+def upper_under_percentages(qid: str = "72", group: str = "Total") -> dict[str, float]:
     under_total = 0
     upper_total = 0
+    total = 0
 
-    if qid not in data:
-        return 0.0, 0.0
+    q = data.get(qid)
+    if not q:
+        return {"Underclassmen": 0.0, "Upperclassmen": 0.0}
 
-    for response_code, info in data[qid]["responses"].items():
-        label = info["response"]
-        level = classify_year(label)
-        count = info["counts"].get(group, 0)
+    for info in q.get("responses", {}).values():
+        label = info.get("response")
+        count = info.get("counts", {}).get(group, 0)
 
-        if level == "Underclassmen":
+        total += count
+
+        if label in ["1st year undergraduate", "2nd year undergraduate"]:
             under_total += count
-        elif level == "Upperclassmen":
+        elif label in [
+            "3rd year undergraduate",
+            "4th year undergraduate",
+            "5th year or more undergraduate"
+        ]:
             upper_total += count
 
-    total = under_total + upper_total
-
     if total == 0:
-        return 0.0, 0.0
+        return {"Underclassmen": 0.0, "Upperclassmen": 0.0}
 
-    return (under_total / total) * 100, (upper_total / total) * 100
+    return {
+        "Underclassmen": (under_total / total) * 100,
+        "Upperclassmen": (upper_total / total) * 100
+    }
 
 #calculates the high risk percentages per group
-def high_risk_percent(qid, group="Total"):
+#also a core analysis function
+def high_risk_percent(qid: str, group: str ="Total")-> float:
+    q = data.get(qid)
+    if not q:
+        return 0.0
+
     high_risk_total = 0
     total = 0
 
-    if qid not in data:
-        return 0.0
+    responses = q.get("responses", {})
 
-    for response_code, info in data[qid]["responses"].items():
-        label = info["response"]
-        count = info["counts"].get(group, 0)
-
-        # Define high risk
-        if label in ["Weekly", "Daily or almost daily"]:
-            high_risk_total += count
+    for info in responses.values():
+        label = info.get("response")
+        counts = info.get("counts", {})
+        count = counts.get(group, 0)
 
         total += count
+
+        if label in ["Weekly", "Daily or almost daily"]:
+            high_risk_total += count
 
     if total == 0:
         return 0.0
 
     return (high_risk_total / total) * 100
-
 #need a function to calculate gpa per group
 
 #think it would be cool to analyze substance type per group too if we have time :)
+
+#consequences
+def consequence_percentage(qid: str, group: str = "Total")->float:
+    consequence = 0
+    total = 0
+
+    response = responses(qid)
+    if not response:
+        return 0.0
+
+    for information in response:
+        label = information.get("response", "")
+        count = (info, group)
+
+        total += count
+        if label != "Never"
+            consequence += count
+        if total = 0:
+            return 0.0
+    return (consequence / total)*100

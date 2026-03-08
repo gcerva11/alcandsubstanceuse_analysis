@@ -1,8 +1,9 @@
 class UsageRecord:
-    def __init__(self, section, question_id, substance, response, group, count):
+    def __init__(self, section, question_id, question_text, response_code, response, group, count):
         self.section = section
-        self.question_id = str(question_id)   # keep it consistent (strings)
-        self.substance = substance
+        self.question_id = str(question_id)
+        self.question_text = question_text
+        self.response_code = int(response_code)
         self.response = response
         self.group = group
         self.count = int(count)
@@ -14,24 +15,17 @@ class UsageRecord:
         if not self.is_year_in_school():
             return None
 
-        underclassmen = {
-            "1st year undergraduate",
-            "2nd year undergraduate",
-        }
-        upperclassmen = {
-            "3rd year undergraduate",
-            "4th year undergraduate",
-            "5th year or more undergraduate",
-        }
+        under = {"1st year undergraduate",
+                 "2nd year undergraduate"}
+        upper = {"3rd year undergraduate",
+                 "4th year undergraduate",
+                 "5th year or more undergraduate"}
 
-        if self.response in underclassmen:
+        if self.response in under:
             return "Underclassmen"
-        if self.response in upperclassmen:
+        if self.response in upper:
             return "Upperclassmen"
         return "Other"
 
     def __repr__(self):
-        return (
-            f"UsageRecord(section={self.section!r}, question_id={self.question_id!r}, "
-            f"response={self.response!r}, group={self.group!r}, count={self.count})"
-        )
+        return f"UsageRecord(qid={self.question_id}, response={self.response}, group={self.group}, count={self.count})"
