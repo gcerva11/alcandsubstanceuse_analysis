@@ -1,0 +1,2 @@
+#We want to find the average drinking and drug use within participants who identified as male, female and transgender/non-conforming.
+#This document is for alcohol and that don't classify as drugs and other entities.
