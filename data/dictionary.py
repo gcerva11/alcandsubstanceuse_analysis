@@ -19,8 +19,8 @@ with open(file_path, newline="", encoding="utf-8") as f:
             continue
 
         section = row[0]
-        qid = row[1]
-        question_text = row[2]
+        qid = row[1].strip()
+        question_text = row[2].strip()
         response_code = int(row[3])
         response = row[4].strip()
         group = row[5].strip()
@@ -50,7 +50,6 @@ with open(file_path, newline="", encoding="utf-8") as f:
 #*************
 
 def classify_year(response_label):
-    """Classify a year label into Underclassmen or Upperclassmen."""
     under = {
         "1st year undergraduate",
         "2nd year undergraduate",
@@ -68,12 +67,8 @@ def classify_year(response_label):
         return "Upperclassmen"
     return "Other"
 
-
+#calculates upper and underclassmen percentages (and totals)
 def upper_under_percentages(qid="72", group="Total"):
-    """
-    Calculate Underclassmen and Upperclassmen percentages
-    for a given group (default = Total).
-    """
     under_total = 0
     upper_total = 0
 
@@ -96,3 +91,26 @@ def upper_under_percentages(qid="72", group="Total"):
         return 0.0, 0.0
 
     return (under_total / total) * 100, (upper_total / total) * 100
+
+#calculates the high risk percentages per group
+def high_risk_percent(qid, group="Total"):
+    high_risk_total = 0
+    total = 0
+
+    if qid not in data:
+        return 0.0
+
+    for response_code, info in data[qid]["responses"].items():
+        label = info["response"]
+        count = info["counts"].get(group, 0)
+
+        # Define high risk
+        if label in ["Weekly", "Daily or almost daily"]:
+            high_risk_total += count
+
+        total += count
+
+    if total == 0:
+        return 0.0
+
+    return (high_risk_total / total) * 100

@@ -1,20 +1,3 @@
-from data.dictionary import data
-
-def classify_year(response_label):
-    under = {
-        "1st year undergraduate",
-        "2nd year undergraduate",
-    }
-
-    upper = {
-        "3rd year undergraduate",
-        "4th year undergraduate",
-        "5th year or more undergraduate",
-    }
-
-    if response_label in under:
-        return "Underclassmen"
-    elif response_label in upper:
-        return "Upperclassmen"
-    else:
-        return "Other"
+from data.dictionary import data, count
+#inside the main class lets only havbe the fucntions that were going to use for analysis
+#i have the functions ive made so far for data reorganization insdie the dictionary.py
