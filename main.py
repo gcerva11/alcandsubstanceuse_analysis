@@ -1,6 +1,9 @@
-from dataset.dictionary import data, count
-from avg_alcohol_usage import average_frequency_score
-from avg_substance_usage import average_frequency_score
+from dataset.scripts.usage_stats import avg_alcohol_usage
+from dataset.scripts.usage_stats import avg_substance_usage
+#from dataset.scripts.demographic_stats import ___
+import dataset.scripts.usage_stats
+from classdefinitions import UsageRecord
+
 #inside the main class lets only havbe the fucntions that were going to use for analysis
 #i have the functions ive made so far for dataset reorganization insdie the dictionary.py
 
@@ -34,13 +37,6 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-
-
-def test_output(f: float) -> float:
-    return f + 2
-
-
 #Output text code
 
 def analysis_exec() -> None:
@@ -49,6 +45,16 @@ def analysis_exec() -> None:
                 "Fall 2025 by the American College Health Association (ACHA) for the CSC 101-21 Final Project in Winter 2026 by Angel Sanchez and "
                 "Guadalupe Cervantes.\n\nEverything within this document is made using dataset sourced from the Report and processed using Python. "
                 "There may be errors or oversights in any connections made due to the limited time and scope involved in development.\n\n\n"
+                   "STUDENT DEMOGRAPHICS\n"
                    ""
-                   "there may be a "f"{test_output(3.0)}"" somewhere in this text file but it does not exist anywhere else in the project.")
+                   "ALCOHOL/SUBSTANCE USAGE \n"
+                   "The average amount of alcohol usage overall is "f"{avg_alcohol_usage()}"" throughout the survey.\n" #insert into blank
+                   ""
+                   "The average amount of substance usage overall is "f"{avg_substance_usage()}"" throughout the survey.\n"
+                   ""
+                   "The difference between average alcohol usage and average substance usage is "f"{}"" between ___\n\n" #if we want to compare them
+                   "ACADEMIC STATS"
+                   ""
+                   "\n\n"
+                   "MENTAL HEALTH STATS")
 analysis_exec()
