@@ -25,7 +25,7 @@ dataframe = pd.read_csv(BASE_DIR / "master_data_cleaned.csv")
 #it wuld be a but dufferbet tho bc its not explicitly saying if they are upper or underclassmen
 
 #22L2 seems interesting as it talks about getting into problems with substance use
-#Question 80 is a quick win cuz the data is processed properly for grades (we can try to convert the letter grade system into 4.0 gpa?)
+#Question 80 is a quick win cuz the data is processed properly for grades (we can try to convert the letter grade system into 4.0 gpa?) fireeee
 
 def main():
     qid = "22B12"   # replace with your alcohol frequency question id
