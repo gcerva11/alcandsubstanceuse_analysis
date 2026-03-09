@@ -1,8 +1,12 @@
 from dataset.scripts.usage_stats import avg_alcohol_usage
 from dataset.scripts.usage_stats import avg_substance_usage
 #from dataset.scripts.demographic_stats import ___
+from dataset.scripts.academic_stats import avg_gpa
 import dataset.scripts.usage_stats
 from classdefinitions import UsageRecord
+import pandas as pd
+BASE_DIR = Path(__file__).resolve().parent.parent
+dataframe = pd.read_csv(BASE_DIR / "master_data_cleaned.csv")
 
 #inside the main class lets only havbe the fucntions that were going to use for analysis
 #i have the functions ive made so far for dataset reorganization insdie the dictionary.py
@@ -20,7 +24,8 @@ from classdefinitions import UsageRecord
 #and then question 22L1-12 is like about consequences, we could analys a litle bit og that
 #it wuld be a but dufferbet tho bc its not explicitly saying if they are upper or underclassmen
 
-#average alcohol
+#22L2 seems interesting as it talks about getting into problems with substance use
+#Question 80 is a quick win cuz the data is processed properly for grades (we can try to convert the letter grade system into 4.0 gpa?)
 
 def main():
     qid = "22B12"   # replace with your alcohol frequency question id
@@ -55,8 +60,7 @@ def analysis_exec() -> None:
                    "The difference between average alcohol usage and average substance usage is "f"{alc_substance_diff()}"" [units]\n\n" 
                    #if we want to compare them
                    "ACADEMIC STATS\n"
-                   "Underclassmen (1st & 2nd Years) report having an average GPA of "f"{avg_und_class_gpa()}"" in the survey compared to "
-                   "Upperclassmen" "(3rd & 4th years) reporting GPA averages of "f"{avg_up_class_gpa()}"""
+                   "All students report having an average GPA of "f"{avg_gpa(dataframe, None)}"" in the survey compared to "
                    ""
                    "\n\n"
                    "MENTAL HEALTH STATS\n"

@@ -44,7 +44,7 @@ def avg_substance_usage(qid: str, group: str = "Total")-> float:
     weighted_sum = 0.0
     total_count = 0.0
 
-    for information in reponses.value()
+    for information in responses.value()
         label =  info.get("response", "")
         count = info.get("count", {}).get(group, 0)
 
