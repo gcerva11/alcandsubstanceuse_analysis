@@ -1,5 +1,4 @@
-import data.dictionary from data
-
+from dataset.dictionary import data
 #Our goal is to be able to process stats regarding mental wellbeing with students (don't know what we want yet?)
 
 #I think we should analyze sleeping habits and maybe mood if theres something there for that yaaaas

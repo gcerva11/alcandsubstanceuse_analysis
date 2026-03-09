@@ -1,5 +1,4 @@
-from data.dictionary import data
-
+from dataset.dictionary import data
 def high_risk_percent(qid: str, group: str = "Total") -> float:
     q = data.get(qid, {})
     responses = q.get("responses", {})

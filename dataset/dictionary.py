@@ -1,12 +1,5 @@
 import csv
 import os
-import dataset.scripts.demographic_stats
-import dataset.scripts.academic_stats
-import dataset.scripts.usage_stats
-import dataset.scripts.wellbeing_stats
-
-import csv
-import os
 
 data = {}
 

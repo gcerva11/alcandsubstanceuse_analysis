@@ -1,5 +1,4 @@
-import data.dictionary from data
-
+from dataset.dictionary import data
 def classify_year(response_label:str) -> str:
     under = {
         "1st year undergraduate",
