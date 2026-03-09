@@ -1,5 +1,7 @@
 from pathlib import Path
 import pandas as pd
+import data.dictionary from data
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 dataframe = pd.read_csv(BASE_DIR / "master_data_cleaned.csv")
 

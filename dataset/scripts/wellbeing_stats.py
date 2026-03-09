@@ -1,6 +1,8 @@
+import data.dictionary from data
+
 #Our goal is to be able to process stats regarding mental wellbeing with students (don't know what we want yet?)
 
-#I think we should analyze sleeping habits and maybe mood if theres something there for that
+#I think we should analyze sleeping habits and maybe mood if theres something there for that yaaaas
 
 frequency = {
     "Never":0,

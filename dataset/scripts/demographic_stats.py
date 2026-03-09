@@ -1,3 +1,5 @@
+import data.dictionary from data
+
 def classify_year(response_label:str) -> str:
     under = {
         "1st year undergraduate",
