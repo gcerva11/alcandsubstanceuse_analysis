@@ -3,7 +3,7 @@
 
 from dataset.dictionary import data
 
-frequency = {
+FREQUENCY_SCORE = {
     "Never": 0,
     "Once or twice": 1,
     "Monthly": 2,
@@ -11,50 +11,21 @@ frequency = {
     "Daily or almost daily": 4,
 }
 
+def average_frequency_score(dataset, qid, group="Total"):
+    records = dataset.by_qid_and_group(qid, group)
 
-def avg_alcohol_usage(qid: str, group: str = "Total") -> float:
-    question = data.get(qid, {})
-    responses = question.get("responses", {})
+    weighted_sum = 0
+    total_count = 0
 
-    weighted_sum = 0.0
-    total_count = 0.0
-
-    for info in responses.values():
-        label = info.get("response", "")
-        count = info.get("counts", {}).get(group, 0)
-
-        score = frequency.get(label)
+    for r in records:
+        score = FREQUENCY_SCORE.get(r.response, None)
         if score is None:
             continue
 
-        weighted_sum += score * count
-        total_count += count
+        weighted_sum += score * r.count
+        total_count += r.count
 
-    if total_count == 0.0:
-        return 0.0
-
-    return weighted_sum / total_count
-
-
-def avg_substance_usage(qid: str, group: str = "Total") -> float:
-    question = data.get(qid, {})
-    responses = question.get("responses", {})
-
-    weighted_sum = 0.0
-    total_count = 0.0
-
-    for info in responses.values():
-        label = info.get("response", "")
-        count = info.get("counts", {}).get(group, 0)
-
-        score = frequency.get(label)
-        if score is None:
-            continue
-
-        weighted_sum += score * count
-        total_count += count
-
-    if total_count == 0.0:
+    if total_count == 0:
         return 0.0
 
     return weighted_sum / total_count
