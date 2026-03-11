@@ -19,24 +19,32 @@ def classify_year(response_label: str) -> str:
     return "Other"
 
 
-def upper_under_percentages(data: dict, qid: str = "72", group: str = "Total") -> dict:
-    q = data.get(str(qid), {})
-    responses = q.get("responses", {})
-
+def upper_under_percentages(dataset, qid: str = "72", group: str = "Total") -> dict:
     under_total = 0
     upper_total = 0
     total = 0
 
-    for info in responses.values():
-        label = info.get("response", "")
-        count = info.get("counts", {}).get(group, 0)
+    under_labels = {
+        "1st year undergraduate",
+        "2nd year undergraduate",
+    }
+
+    upper_labels = {
+        "3rd year undergraduate",
+        "4th year undergraduate",
+        "5th year or more undergraduate",
+    }
+
+    # Pull records from the dataset
+    for r in dataset.by_qid_and_group(qid, group):
+        label = (r.response or "").strip()
+        count = r.count
 
         total += count
 
-        level = classify_year(label)
-        if level == "Underclassmen":
+        if label in under_labels:
             under_total += count
-        elif level == "Upperclassmen":
+        elif label in upper_labels:
             upper_total += count
 
     if total == 0:
@@ -44,5 +52,5 @@ def upper_under_percentages(data: dict, qid: str = "72", group: str = "Total") -
 
     return {
         "Underclassmen": (under_total / total) * 100,
-        "Upperclassmen": (upper_total / total) * 100
+        "Upperclassmen": (upper_total / total) * 100,
     }

@@ -8,6 +8,20 @@ GRADE_POINTS = {
     "F": 0.0,
 }
 
+def normalize_grade(label: str) -> str:
+    """
+    Fix messy labels like:
+    'D- 6 0 15 0'
+    'F 9 0 1'
+
+    Returns just the grade part (e.g., 'D-' or 'F')
+    """
+    if not label:
+        return ""
+
+    return label.strip().split()[0]
+
+
 def average_gpa(dataset, qid: str = "80", group: str = "Total") -> float:
     records = dataset.by_qid_and_group(qid, group)
 
@@ -15,7 +29,9 @@ def average_gpa(dataset, qid: str = "80", group: str = "Total") -> float:
     total_count = 0
 
     for r in records:
-        points = GRADE_POINTS.get(r.response, None)
+        clean_grade = normalize_grade(r.response)
+        points = GRADE_POINTS.get(clean_grade)
+
         if points is None:
             continue
 

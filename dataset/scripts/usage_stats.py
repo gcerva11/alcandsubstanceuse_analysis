@@ -15,14 +15,11 @@ def average_frequency_score(dataset, qid: str, group: str = "Total") -> float:
     total_count = 0
 
     for r in records:
-        score = FREQUENCY_SCORE.get(r.response, None)
+        score = FREQUENCY_SCORE.get(r.response)
         if score is None:
             continue
 
         weighted_sum += score * r.count
         total_count += r.count
 
-    if total_count == 0:
-        return 0.0
-
-    return weighted_sum / total_count
+    return 0.0 if total_count == 0 else (weighted_sum / total_count)

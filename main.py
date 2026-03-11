@@ -1,70 +1,68 @@
-from dataset.scripts.usage_stats import avg_alcohol_usage
-from dataset.scripts.usage_stats import avg_substance_usage
-#from dataset.scripts.demographic_stats import ___
-from dataset.scripts.academic_stats import avg_gpa
-import dataset.scripts.usage_stats
-from classdefinitions import UsageRecord
-import pandas as pd
-BASE_DIR = Path(__file__).resolve().parent.parent
-dataframe = pd.read_csv(BASE_DIR / "master_data_cleaned.csv")
+from dataset.dictionary import data, build_dataset_from_data
+from dataset.scripts.academic_stats import average_gpa
+from dataset.scripts.demographic_stats import upper_under_percentages
+from dataset.scripts.usage_stats import average_frequency_score
+from dataset.scripts.social_impact_stats import (
+    community_harm_percent,
+    academic_impact_ratio,
+    disparity_index
+)
 
-#inside the main class lets only havbe the fucntions that were going to use for analysis
-#i have the functions ive made so far for dataset reorganization insdie the dictionary.py
+GROUPS = ["Cis Men", "Cis Women", "TGNC", "Total"]
 
-#for out analysis, i think we could do
-
-#upper vs underclassmen percentage of use frequency, and what are their implications
-
-#upper vs under high_risk frequency
-
-#usage diferences of different substances
-
-#idk what else
-
-#and then question 22L1-12 is like about consequences, we could analys a litle bit og that
-#it wuld be a but dufferbet tho bc its not explicitly saying if they are upper or underclassmen
-
-#22L2 seems interesting as it talks about getting into problems with substance use
-#Question 80 is a quick win cuz the data is processed properly for grades (we can try to convert the letter grade system into 4.0 gpa?) fireeee
+def print_block(title: str):
+    print("\n" + "=" * 5, title, "=" * 5)
 
 def main():
-    qid = "22B12"   # replace with your alcohol frequency question id
+    dataset = build_dataset_from_data(data)
 
-    groups = ["Cis Men", "Cis Women", "TGNC", "Total"]
+    # Debug checks (VERY helpful)
+    print("Total records:", len(dataset.records))
+    print("GPA Total rows:", len(dataset.by_qid_and_group("80", "Total")))
+    print("Alcohol Total rows:", len(dataset.by_qid_and_group("22B12", "Total")))
 
-    print("\nAverage Alcohol Frequency Score")
-    print("--------------------------------")
+    # ----- Alcohol usage (example: 22B12) -----
+    print("The response scores were averaged for each group, with the options being: \nNever	0, \nOnce or twice	1, \nMonthly	2, \nWeekly	3, \nDaily or almost daily 4, ")
+    print_block("ALCOHOL USAGE (22B12)")
+    for g in GROUPS:
+        print(f"{g}: {average_frequency_score(dataset, '22B12', g):.2f}")
 
-    for g in groups:
-        avg = average_frequency_score(qid, g)
-        print(f"{g}: {avg:.2f}")
+    # ----- Year in school (72) -----
+    print_block("YEAR IN SCHOOL (72)")
+    for g in GROUPS:
+        p = upper_under_percentages(dataset, "72", g)
+        print(f"{g}: Underclass {p['Underclassmen']:.2f}% | Upperclass {p['Upperclassmen']:.2f}%")
+
+    # ----- GPA (80) -----
+    print_block("GPA (80)")
+    for g in GROUPS:
+        print(f"{g}: {average_gpa(dataset, '80', g):.2f}")
+
+    # ----- COMMUNITY HARM (example: 22L1) -----
+    print_block("COMMUNITY HARM (22L1)")
+
+    harm_values = {}
+
+    for g in GROUPS:
+        harm = community_harm_percent(dataset, "22L1", g)
+        harm_values[g] = harm
+        print(f"{g}: {harm:.2f}% reported harm")
+
+    print("\nGender Disparity (Harm):",
+          f"{disparity_index(harm_values):.2f}% difference")
+
+    # ----- ACADEMIC IMPACT RATIO -----
+    print_block("ACADEMIC IMPACT RATIO")
+
+    ratio_values = {}
+
+    for g in GROUPS:
+        ratio = academic_impact_ratio(dataset, "22B12", "30B", g)
+        ratio_values[g] = ratio
+        print(f"{g}: {ratio:.2f} harm-to-risk ratio")
+
+    print("\nGender Disparity (Impact Ratio):",
+          f"{disparity_index(ratio_values):.2f}")
 
 if __name__ == "__main__":
     main()
-
-#Output text code
-
-def analysis_exec() -> None:
-    with open("output.txt", "w") as file:
-        file.write("Thank you for running our program! This analysis was made using the Undergraduate Student Reference Group Data Report from "
-                "Fall 2025 by the American College Health Association (ACHA) for the CSC 101-21 Final Project in Winter 2026 by Angel Sanchez and "
-                "Guadalupe Cervantes.\n\nEverything within this document is made using dataset sourced from the Report and processed using Python. "
-                "There may be errors or oversights in any connections made due to the limited time and scope involved in development.\n\n\n"
-                   "STUDENT DEMOGRAPHICS\n"
-                   ""
-                   "ALCOHOL/SUBSTANCE USAGE\n"
-                   "The average amount of alcohol usage overall is "f"{avg_alcohol_usage()}"" throughout the survey.\n" #insert into blank
-                   ""
-                   "The average amount of substance usage overall is "f"{avg_substance_usage()}"" throughout the survey.\n"
-                   ""
-                   "The difference between average alcohol usage and average substance usage is "f"{alc_substance_diff()}"" [units]\n\n" 
-                   #if we want to compare them
-                   "ACADEMIC STATS\n"
-                   "All students report having an average GPA of "f"{avg_gpa(dataframe, None)}"" in the survey compared to "
-                   ""
-                   "\n\n"
-                   "MENTAL HEALTH STATS\n"
-                   "The average amount of sleep students have is around "f"{avg_sleep()}"""
-                   ""
-                   "")
-analysis_exec()

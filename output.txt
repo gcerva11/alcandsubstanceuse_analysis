@@ -1,6 +1,0 @@
-Thank you for running our program! This analysis was made using the Undergraduate Student Reference Group Data Report from Fall 2025 by the American College Health Association (ACHA) for the CSC 101-21 Final Project in Winter 2026 by Angel Sanchez and Guadalupe Cervantes.
-
-Everything within this document is made using data sourced from the Report and processed using Python. There may be errors or oversights in any connections made due to the limited time and scope involved in development.
-
-
-there may be a 5.0 somewhere in this text file but it does not exist anywhere else in the project.
