@@ -39,13 +39,13 @@ class Dataset:
     def __init__(self, records):
         self.records = records
 
-    def by_qid(self, qid):
+    def by_qid(self, qid: str):
         return [r for r in self.records if r.question_id == str(qid)]
 
-    def by_qid_and_group(self, qid, group):
+    def by_qid_and_group(self, qid: str, group: str):
         return [r for r in self.by_qid(qid) if r.group == group]
 
-    def underclass_percent(self, group="Total"):
+    def underclass_percent(self, group: str = "Total") -> float:
         under = 0
         upper = 0
 
@@ -62,7 +62,7 @@ class Dataset:
 
         return (under / total) * 100
 
-    def upperclass_percent(self, group="Total"):
+    def upperclass_percent(self, group: str = "Total") -> float:
         under = 0
         upper = 0
 
@@ -79,7 +79,7 @@ class Dataset:
 
         return (upper / total) * 100
 
-    def high_risk_percent(self, qid, group="Total"):
+    def high_risk_percent(self, qid: str, group: str = "Total") -> float:
         high = 0
         total = 0
 
@@ -92,3 +92,17 @@ class Dataset:
             return 0.0
 
         return (high / total) * 100
+
+    def consequence_percent(self, qid: str, group: str = "Total") -> float:
+        consequence = 0
+        total = 0
+
+        for r in self.by_qid_and_group(qid, group):
+            total += r.count
+            if r.response != "Never":
+                consequence += r.count
+
+        if total == 0:
+            return 0.0
+
+        return (consequence / total) * 100

@@ -1,6 +1,3 @@
-#We want to find the average drinking and drug use within participants who identified as male, female and transgender/non-conforming.
-#This document is for alcohol and that don't classify as drugs and other entities.
-
 from dataset.dictionary import data
 
 FREQUENCY_SCORE = {
@@ -11,7 +8,7 @@ FREQUENCY_SCORE = {
     "Daily or almost daily": 4,
 }
 
-def average_frequency_score(dataset, qid, group="Total"):
+def average_frequency_score(dataset, qid: str, group: str = "Total") -> float:
     records = dataset.by_qid_and_group(qid, group)
 
     weighted_sum = 0
