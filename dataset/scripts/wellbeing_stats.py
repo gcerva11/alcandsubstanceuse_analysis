@@ -1,32 +1,30 @@
 from dataset.dictionary import data
 
-frequency = {
-    "Never": 0,
-    "Once or twice": 1,
-    "Monthly": 2,
-    "Weekly": 3,
-    "Daily or almost daily": 4,
+SLEEP_HOURS = {
+    "Less than 4 hours": 3.0,
+    "4-5 hours": 4.5,
+    "6-7 hours": 6.5,
+    "8+ hours": 8.0,
 }
+SLEEP_HOURS.update({
+    "4–5 hours": 4.5,
+    "6–7 hours": 6.5,
+})
 
-def sleep_habits(qid: str, group: str = "Total") -> float:
-    q = data.get(qid, {})
-    responses = q.get("responses", {})
+def avg_sleep_hours(dataset, qid: str, group: str = "Total") -> float:
+    total = 0
+    weighted_sum = 0.0
 
-    weighted_sum = 0
-    total_count = 0
-
-    for info in responses.values():
-        label = info.get("response", "")
-        count = info.get("counts", {}).get(group, 0)
-
-        score = frequency.get(label)
-        if score is None:
+    for r in dataset.by_qid_and_group(qid, group):
+        hours = SLEEP_HOURS.get(r.response)
+        if hours is None:
             continue
 
-        weighted_sum += score * count
-        total_count += count
+        total += r.count
+        weighted_sum += hours * r.count
 
-    if total_count == 0:
+    if total == 0:
         return 0.0
 
-    return weighted_sum / total_count
+    return weighted_sum / total
+

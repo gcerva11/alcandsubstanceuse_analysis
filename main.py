@@ -2,6 +2,7 @@ from dataset.dictionary import data, build_dataset_from_data
 from dataset.scripts.academic_stats import average_gpa
 from dataset.scripts.demographic_stats import upper_under_percentages
 from dataset.scripts.usage_stats import average_frequency_score
+from dataset.scripts.wellbeing_stats import avg_sleep_hours
 from dataset.scripts.social_impact_stats import (
     community_harm_percent,
     academic_impact_ratio,
@@ -63,6 +64,9 @@ def main():
 
     print("\nGender Disparity (Impact Ratio):",
           f"{disparity_index(ratio_values):.2f}")
+
+    # ----- SLEEP -----
+    print_block ("SLEEP HOURS")
 
 if __name__ == "__main__":
     main()
