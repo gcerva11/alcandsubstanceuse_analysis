@@ -30,12 +30,13 @@ def analysis_exec() -> None:
             "connections made due to the limited time and scope involved in development.\n\n"
         )
 
-        file.write("ALCOHOL USAGE (22B12)\n")
-
+        file.write("The response scores were averaged for each group, with the options being: "
+                   "\nNever	0, \nOnce or twice	1, \nMonthly	2, \nWeekly	3, \nDaily or almost daily 4, \n\n")
+        file.write("Alcohol Usage Average Response\n")
         for g in GROUPS:
             file.write(f"{g}: {average_frequency_score(dataset, '22B12', g):.2f}\n")
 
-        file.write("\nYEAR IN SCHOOL (72)\n")
+        file.write("\nRatio of Men and Women that are affected by substance use separated by underclassmen and upperclassmen\n")
 
         for g in GROUPS:
             p = upper_under_percentages(dataset, "72", g)
@@ -44,12 +45,12 @@ def analysis_exec() -> None:
                 f"Upperclass {p['Upperclassmen']:.2f}%\n"
             )
 
-        file.write("\nGPA (80)\n")
+        file.write("\nGPA Averages per group\n")
 
         for g in GROUPS:
             file.write(f"{g}: {average_gpa(dataset, '80', g):.2f}\n")
 
-        file.write("\nCOMMUNITY HARM (22L1)\n")
+        file.write("\nCommunity Harm Percentage, questions regarding harm to their community due to substance abuse\n")
 
         harm_values = {}
         for g in GROUPS:
@@ -62,7 +63,7 @@ def analysis_exec() -> None:
             f"{disparity_index(harm_values):.2f}% difference\n"
         )
 
-        file.write("\nACADEMIC IMPACT RATIO\n")
+        file.write("\nAcademic Impact Ratio, which averages the responses of people who responded that have been affected academically by using.\n")
 
         ratio_values = {}
         for g in GROUPS:
@@ -83,6 +84,7 @@ def analysis_exec() -> None:
         file.write(
             f"Average Sleep on Weekends: "
             f"{round(avg_sleep_hours(dataset, 'Q15', 'Total'), 2)}\n"
+            "\nEnd of Text"
         )
     print("\nAnalysis Completed!\n")
 

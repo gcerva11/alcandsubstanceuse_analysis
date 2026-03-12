@@ -29,7 +29,7 @@ def main():
         print(f"{g}: {average_frequency_score(dataset, '22B12', g):.2f}")
 
     # Year in school q 72
-    print_block("Ratio of Men and Women that are affected by substance use seperated by underclassmen and upperclassmen")
+    print_block("Ratio of Men and Women that are affected by substance use separated by underclassmen and upperclassmen")
     for g in GROUPS:
         p = upper_under_percentages(dataset, "72", g)
         print(f"{g}: Underclass {p['Underclassmen']:.2f}% | Upperclass {p['Upperclassmen']:.2f}%")
@@ -67,8 +67,8 @@ def main():
 
     # ----- SLEEP -----
     print_block ("SLEEP HOURS")
-    # Weeknight
-    print("Weeknight avg sleep (Total):", round(avg_sleep_hours(dataset, "Q14", "Total"), 2))
+    # Weekday
+    print("Weekday avg sleep (Total):", round(avg_sleep_hours(dataset, "Q14", "Total"), 2))
 
     # Weekend
     print("Weekend avg sleep (Total):", round(avg_sleep_hours(dataset, "Q15", "Total"), 2))

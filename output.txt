@@ -2,25 +2,32 @@ Thank you for running our program! This analysis was made using the Undergraduat
 
 Everything within this document is made using dataset sourced from the Report and processed using Python. There may be errors or oversights in any connections made due to the limited time and scope involved in development.
 
-ALCOHOL USAGE (22B12)
+The response scores were averaged for each group, with the options being: 
+Never	0, 
+Once or twice	1, 
+Monthly	2, 
+Weekly	3, 
+Daily or almost daily 4, 
+
+Alcohol Usage Average Response
 Cis Men: 2.06
 Cis Women: 2.16
 TGNC: 1.71
 Total: 2.06
 
-YEAR IN SCHOOL (72)
+Ratio of Men and Women that are affected by substance use separated by underclassmen and upperclassmen
 Cis Men: Underclass 59.35% | Upperclass 40.65%
 Cis Women: Underclass 58.59% | Upperclass 41.41%
 TGNC: Underclass 58.68% | Upperclass 41.32%
 Total: Underclass 58.80% | Upperclass 41.20%
 
-GPA (80)
+GPA Averages per group
 Cis Men: 3.52
 Cis Women: 3.56
 TGNC: 3.47
 Total: 3.55
 
-COMMUNITY HARM (22L1)
+Community Harm Percentage, questions regarding harm to their community due to substance abuse
 Cis Men: 15.32% reported harm
 Cis Women: 16.80% reported harm
 TGNC: 23.08% reported harm
@@ -28,7 +35,7 @@ Total: 16.78% reported harm
 
 Gender Disparity (Harm): 7.76% difference
 
-ACADEMIC IMPACT RATIO
+Academic Impact Ratio, which averages the responses of people who responded that have been affected academically by using.
 Cis Men: 0.09 harm-to-risk ratio
 Cis Women: 0.05 harm-to-risk ratio
 TGNC: 0.10 harm-to-risk ratio
@@ -39,3 +46,5 @@ Gender Disparity (Impact Ratio): 0.06
 SLEEP HOURS
 Average Sleep on Weekdays (Total): 6.67
 Average Sleep on Weekends: 7.63
+
+End of Text
