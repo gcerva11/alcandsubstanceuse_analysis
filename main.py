@@ -67,6 +67,10 @@ def main():
 
     # ----- SLEEP -----
     print_block ("SLEEP HOURS")
+    # Weeknight
+    print("Weeknight avg sleep (Total):", round(avg_sleep_hours(dataset, "Q14", "Total"), 2))
 
+    # Weekend
+    print("Weekend avg sleep (Total):", round(avg_sleep_hours(dataset, "Q15", "Total"), 2))
 if __name__ == "__main__":
     main()

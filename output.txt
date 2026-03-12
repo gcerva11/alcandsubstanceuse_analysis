@@ -1,0 +1,41 @@
+Thank you for running our program! This analysis was made using the Undergraduate Student Reference Group Data Report from Fall 2025 by the American College Health Association (ACHA) for the CSC 101-21 Final Project in Winter 2026 by Angel Sanchez and Guadalupe Cervantes.
+
+Everything within this document is made using dataset sourced from the Report and processed using Python. There may be errors or oversights in any connections made due to the limited time and scope involved in development.
+
+ALCOHOL USAGE (22B12)
+Cis Men: 2.06
+Cis Women: 2.16
+TGNC: 1.71
+Total: 2.06
+
+YEAR IN SCHOOL (72)
+Cis Men: Underclass 59.35% | Upperclass 40.65%
+Cis Women: Underclass 58.59% | Upperclass 41.41%
+TGNC: Underclass 58.68% | Upperclass 41.32%
+Total: Underclass 58.80% | Upperclass 41.20%
+
+GPA (80)
+Cis Men: 3.52
+Cis Women: 3.56
+TGNC: 3.47
+Total: 3.55
+
+COMMUNITY HARM (22L1)
+Cis Men: 15.32% reported harm
+Cis Women: 16.80% reported harm
+TGNC: 23.08% reported harm
+Total: 16.78% reported harm
+
+Gender Disparity (Harm): 7.76% difference
+
+ACADEMIC IMPACT RATIO
+Cis Men: 0.09 harm-to-risk ratio
+Cis Women: 0.05 harm-to-risk ratio
+TGNC: 0.10 harm-to-risk ratio
+Total: 0.06 harm-to-risk ratio
+
+Gender Disparity (Impact Ratio): 0.06
+
+SLEEP HOURS
+Average Sleep on Weekdays (Total):6.67
+Average Sleep on Weekends:7.63

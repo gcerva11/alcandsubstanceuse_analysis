@@ -9,6 +9,10 @@ data = {}
 current_dir = os.path.dirname(__file__)
 file_path = os.path.join(current_dir, "master_data_cleaned.csv")
 
+# Keeps unique negative response codes for questions that don't have a real ResponseID
+# (Prevents overwriting multiple responses that share -1)
+missing_code_map = {}
+
 with open(file_path, newline="", encoding="utf-8") as f:
     reader = csv.reader(f)
 
@@ -21,22 +25,34 @@ with open(file_path, newline="", encoding="utf-8") as f:
             continue
 
         # Skip rows missing response_code or count
-        if row[3].strip() == "" or row[6].strip() == "":
+        # NOTE: ResponseID can be "-1" (placeholder) for sleep rows, so only skip if Count is missing
+        if row[6].strip() == "":
             continue
 
         section = row[0].strip()
         qid = row[1].strip()
         question_text = row[2].strip()
 
+        response = row[4].strip()
+        group = row[5].strip()
+
         # ResponseID might be "1.0" so parse as float first
         try:
-            response_code = int(float(row[3].strip()))
+            response_id_raw = row[3].strip()
+            response_code = int(float(response_id_raw)) if response_id_raw != "" else -1
             count = int(float(row[6].strip()))
         except ValueError:
             continue
 
-        response = row[4].strip()
-        group = row[5].strip()
+        # If ResponseID was a placeholder (-1), generate a stable unique code per response label
+        if response_code == -1:
+            if qid not in missing_code_map:
+                missing_code_map[qid] = {}
+
+            if response not in missing_code_map[qid]:
+                missing_code_map[qid][response] = -(len(missing_code_map[qid]) + 1)  # -1, -2, -3...
+
+            response_code = missing_code_map[qid][response]
 
         # Create the question-level dictionary if missing
         if qid not in data:

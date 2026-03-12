@@ -1622,10 +1622,10 @@ Q22-32,27,"One drink of alcohol is defined as a 12 oz. can or bottle of beer or 
 Q22-32,27,"One drink of alcohol is defined as a 12 oz. can or bottle of beer or wine cooler, a 4 oz. glass of wine, or a shot of liquor straight or in a mixed drink.",6.0,11 or More Hours,Cis Women,44
 Q22-32,27,"One drink of alcohol is defined as a 12 oz. can or bottle of beer or wine cooler, a 4 oz. glass of wine, or a shot of liquor straight or in a mixed drink.",6.0,11 or More Hours,TGNC,6
 Q22-32,27,"One drink of alcohol is defined as a 12 oz. can or bottle of beer or wine cooler, a 4 oz. glass of wine, or a shot of liquor straight or in a mixed drink.",6.0,11 or More Hours,Total,84
-Q22-32,27,"One drink of alcohol is defined as a 12 oz. can or bottle of beer or wine cooler, a 4 oz. glass of wine, or a shot of liquor straight or in a mixed drink.",,Total,Cis Men,3677
-Q22-32,27,"One drink of alcohol is defined as a 12 oz. can or bottle of beer or wine cooler, a 4 oz. glass of wine, or a shot of liquor straight or in a mixed drink.",,Total,Cis Women,9556
-Q22-32,27,"One drink of alcohol is defined as a 12 oz. can or bottle of beer or wine cooler, a 4 oz. glass of wine, or a shot of liquor straight or in a mixed drink.",,Total,TGNC,939
-Q22-32,27,"One drink of alcohol is defined as a 12 oz. can or bottle of beer or wine cooler, a 4 oz. glass of wine, or a shot of liquor straight or in a mixed drink.",,Total,Total,14283
+Q22-32,27,"One drink of alcohol is defined as a 12 oz. can or bottle of beer or wine cooler, a 4 oz. glass of wine, or a shot of liquor straight or in a mixed drink.",Total,Cis Men,3677
+Q22-32,27,"One drink of alcohol is defined as a 12 oz. can or bottle of beer or wine cooler, a 4 oz. glass of wine, or a shot of liquor straight or in a mixed drink.",Total,Cis Women,9556
+Q22-32,27,"One drink of alcohol is defined as a 12 oz. can or bottle of beer or wine cooler, a 4 oz. glass of wine, or a shot of liquor straight or in a mixed drink.",Total,TGNC,939
+Q22-32,27,"One drink of alcohol is defined as a 12 oz. can or bottle of beer or wine cooler, a 4 oz. glass of wine, or a shot of liquor straight or in a mixed drink.",Total,Total,14283
 Q22-32,28,"Over the last two weeks, how many times have you had five or more drinks (males) or four or more drinks (females) containing any kind of alcohol at a sitting?",1.0,,Cis Men,1072
 Q22-32,28,"Over the last two weeks, how many times have you had five or more drinks (males) or four or more drinks (females) containing any kind of alcohol at a sitting?",1.0,,Cis Women,3132
 Q22-32,28,"Over the last two weeks, how many times have you had five or more drinks (males) or four or more drinks (females) containing any kind of alcohol at a sitting?",1.0,,TGNC,355
@@ -2514,267 +2514,267 @@ Demographics,80,What is your approximate cumulative grade average?,13.0,F 9 0 1,
 Demographics,80,What is your approximate cumulative grade average?,13.0,F 9 0 1,Cis Women,19
 Demographics,80,What is your approximate cumulative grade average?,13.0,F 9 0 1,TGNC,6
 Demographics,80,What is your approximate cumulative grade average?,13.0,F 9 0 1,Total,34
-Demographics,80,What is your approximate cumulative grade average?,14.0,,Cis Men,226
-Demographics,80,What is your approximate cumulative grade average?,14.0,,Cis Women,619
-Demographics,80,What is your approximate cumulative grade average?,14.0,,TGNC,82
-Demographics,80,What is your approximate cumulative grade average?,14.0,,Total,949
-Sleep,Q13,Time to fall asleep at night once you close your eyes,,Under 5 minutes,Cis Men,757
-Sleep,Q13,Time to fall asleep at night once you close your eyes,,Under 5 minutes,Cis Women,1406
-Sleep,Q13,Time to fall asleep at night once you close your eyes,,Under 5 minutes,TGNC,107
-Sleep,Q13,Time to fall asleep at night once you close your eyes,,Under 5 minutes,Total,2286
-Sleep,Q13,Time to fall asleep at night once you close your eyes,,5-15 minutes,Cis Men,2497
-Sleep,Q13,Time to fall asleep at night once you close your eyes,,5-15 minutes,Cis Women,5580
-Sleep,Q13,Time to fall asleep at night once you close your eyes,,5-15 minutes,TGNC,464
-Sleep,Q13,Time to fall asleep at night once you close your eyes,,5-15 minutes,Total,8611
-Sleep,Q13,Time to fall asleep at night once you close your eyes,,16-30 minutes,Cis Men,1876
-Sleep,Q13,Time to fall asleep at night once you close your eyes,,16-30 minutes,Cis Women,4734
-Sleep,Q13,Time to fall asleep at night once you close your eyes,,16-30 minutes,TGNC,472
-Sleep,Q13,Time to fall asleep at night once you close your eyes,,16-30 minutes,Total,7152
-Sleep,Q13,Time to fall asleep at night once you close your eyes,,31-60 minutes,Cis Men,1101
-Sleep,Q13,Time to fall asleep at night once you close your eyes,,31-60 minutes,Cis Women,3247
-Sleep,Q13,Time to fall asleep at night once you close your eyes,,31-60 minutes,TGNC,414
-Sleep,Q13,Time to fall asleep at night once you close your eyes,,31-60 minutes,Total,4833
-Sleep,Q13,Time to fall asleep at night once you close your eyes,,Over 1 hour,Cis Men,499
-Sleep,Q13,Time to fall asleep at night once you close your eyes,,Over 1 hour,Cis Women,1704
-Sleep,Q13,Time to fall asleep at night once you close your eyes,,Over 1 hour,TGNC,289
-Sleep,Q13,Time to fall asleep at night once you close your eyes,,Over 1 hour,Total,2526
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,Less than 4 hours,Cis Men,82
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,Less than 4 hours,Cis Women,219
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,Less than 4 hours,TGNC,26
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,Less than 4 hours,Total,333
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,4 hours,Cis Men,209
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,4 hours,Cis Women,578
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,4 hours,TGNC,67
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,4 hours,Total,866
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,5 hours,Cis Men,734
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,5 hours,Cis Women,1966
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,5 hours,TGNC,255
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,5 hours,Total,3003
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,6 hours,Cis Men,1739
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,6 hours,Cis Women,4363
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,6 hours,TGNC,473
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,6 hours,Total,6640
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,7 hours,Cis Men,2414
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,7 hours,Cis Women,5258
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,7 hours,TGNC,552
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,7 hours,Total,8303
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,8 hours,Cis Men,1258
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,8 hours,Cis Women,3229
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,8 hours,TGNC,272
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,8 hours,Total,4798
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,9 hours,Cis Men,240
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,9 hours,Cis Women,776
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,9 hours,TGNC,74
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,9 hours,Total,1101
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,10 or more hours,Cis Men,62
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,10 or more hours,Cis Women,285
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,10 or more hours,TGNC,29
-Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),,10 or more hours,Total,377
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,Less than 4 hours,Cis Men,73
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,Less than 4 hours,Cis Women,186
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,Less than 4 hours,TGNC,20
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,Less than 4 hours,Total,286
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,4 hours,Cis Men,130
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,4 hours,Cis Women,389
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,4 hours,TGNC,40
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,4 hours,Total,563
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,5 hours,Cis Men,338
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,5 hours,Cis Women,1046
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,5 hours,TGNC,113
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,5 hours,Total,1517
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,6 hours,Cis Men,786
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,6 hours,Cis Women,2166
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,6 hours,TGNC,181
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,6 hours,Total,3174
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,7 hours,Cis Men,1311
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,7 hours,Cis Women,3274
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,7 hours,TGNC,281
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,7 hours,Total,4912
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,8 hours,Cis Men,2102
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,8 hours,Cis Women,4763
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,8 hours,TGNC,461
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,8 hours,Total,7394
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,9 hours,Cis Men,1410
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,9 hours,Cis Women,3261
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,9 hours,TGNC,391
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,9 hours,Total,5113
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,10 or more hours,Cis Men,586
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,10 or more hours,Cis Women,1583
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,10 or more hours,TGNC,259
-Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),,10 or more hours,Total,2450
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,0 days,Cis Men,3661
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,0 days,Cis Women,7477
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,0 days,TGNC,750
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,0 days,Total,11987
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,1 day,Cis Men,1287
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,1 day,Cis Women,3200
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,1 day,TGNC,319
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,1 day,Total,4857
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,2 days,Cis Men,835
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,2 days,Cis Women,2577
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,2 days,TGNC,289
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,2 days,Total,3746
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,3 days,Cis Men,407
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,3 days,Cis Women,1409
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,3 days,TGNC,159
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,3 days,Total,1999
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,4 days,Cis Men,184
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,4 days,Cis Women,739
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,4 days,TGNC,92
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,4 days,Total,1026
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,5 days,Cis Men,154
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,5 days,Cis Women,551
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,5 days,TGNC,64
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,5 days,Total,781
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,6 days,Cis Men,61
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,6 days,Cis Women,231
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,6 days,TGNC,17
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,6 days,Total,314
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,7 days,Cis Men,132
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,7 days,Cis Women,463
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,7 days,TGNC,57
-Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),,7 days,Total,660
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,0 days,Cis Men,426
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,0 days,Cis Women,396
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,0 days,TGNC,35
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,0 days,Total,871
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,1 day,Cis Men,646
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,1 day,Cis Women,772
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,1 day,TGNC,63
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,1 day,Total,1495
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,2 days,Cis Men,1296
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,2 days,Cis Women,1992
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,2 days,TGNC,177
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,2 days,Total,3486
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,3 days,Cis Men,1284
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,3 days,Cis Women,2656
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,3 days,TGNC,210
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,3 days,Total,4201
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,4 days,Cis Men,891
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,4 days,Cis Women,2407
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,4 days,TGNC,223
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,4 days,Total,3549
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,5 days,Cis Men,855
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,5 days,Cis Women,2653
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,5 days,TGNC,244
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,5 days,Total,3787
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,6 days,Cis Men,332
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,6 days,Cis Women,1333
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,6 days,TGNC,162
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,6 days,Total,1848
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,7 days,Cis Men,999
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,7 days,Cis Women,4448
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,7 days,TGNC,633
-Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),,7 days,Total,6153
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,0 days,Cis Men,2456
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,0 days,Cis Women,4761
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,0 days,TGNC,389
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,0 days,Total,7673
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,1 day,Cis Men,1644
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,1 day,Cis Women,3708
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,1 day,TGNC,329
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,1 day,Total,5738
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,2 days,Cis Men,933
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,2 days,Cis Women,2612
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,2 days,TGNC,267
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,2 days,Total,3850
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,3 days,Cis Men,522
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,3 days,Cis Women,1639
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,3 days,TGNC,177
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,3 days,Total,2365
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,4 days,Cis Men,320
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,4 days,Cis Women,1062
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,4 days,TGNC,136
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,4 days,Total,1536
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,5 days,Cis Men,306
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,5 days,Cis Women,1003
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,5 days,TGNC,151
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,5 days,Total,1474
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,6 days,Cis Men,148
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,6 days,Cis Women,489
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,6 days,TGNC,74
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,6 days,Total,721
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,7 days,Cis Men,392
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,7 days,Cis Women,1371
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,7 days,TGNC,223
-Sleep,Q16C,Extremely hard time falling asleep (past 7 days),,7 days,Total,2012
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,0 days,Cis Men,850
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,0 days,Cis Women,3114
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,0 days,TGNC,385
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,0 days,Total,4409
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,1 day,Cis Men,1057
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,1 day,Cis Women,3357
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,1 day,TGNC,374
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,1 day,Total,4828
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,2 days,Cis Men,1358
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,2 days,Cis Women,3387
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,2 days,TGNC,363
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,2 days,Total,5160
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,3 days,Cis Men,976
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,3 days,Cis Women,2516
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,3 days,TGNC,202
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,3 days,Total,3724
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,4 days,Cis Men,853
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,4 days,Cis Women,1661
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,4 days,TGNC,184
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,4 days,Total,2733
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,5 days,Cis Men,809
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,5 days,Cis Women,1398
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,5 days,TGNC,128
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,5 days,Total,2354
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,6 days,Cis Men,465
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,6 days,Cis Women,677
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,6 days,TGNC,71
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,6 days,Total,1222
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,7 days,Cis Men,356
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,7 days,Cis Women,536
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,7 days,TGNC,39
-Sleep,Q16D,Got enough sleep to feel rested (past 7 days),,7 days,Total,943
-Sleep,Q16E,Took a nap (past 7 days),,0 days,Cis Men,2674
-Sleep,Q16E,Took a nap (past 7 days),,0 days,Cis Women,5785
-Sleep,Q16E,Took a nap (past 7 days),,0 days,TGNC,631
-Sleep,Q16E,Took a nap (past 7 days),,0 days,Total,9188
-Sleep,Q16E,Took a nap (past 7 days),,1 day,Cis Men,1388
-Sleep,Q16E,Took a nap (past 7 days),,1 day,Cis Women,3161
-Sleep,Q16E,Took a nap (past 7 days),,1 day,TGNC,345
-Sleep,Q16E,Took a nap (past 7 days),,1 day,Total,4944
-Sleep,Q16E,Took a nap (past 7 days),,2 days,Cis Men,1040
-Sleep,Q16E,Took a nap (past 7 days),,2 days,Cis Women,2690
-Sleep,Q16E,Took a nap (past 7 days),,2 days,TGNC,294
-Sleep,Q16E,Took a nap (past 7 days),,2 days,Total,4057
-Sleep,Q16E,Took a nap (past 7 days),,3 days,Cis Men,639
-Sleep,Q16E,Took a nap (past 7 days),,3 days,Cis Women,1842
-Sleep,Q16E,Took a nap (past 7 days),,3 days,TGNC,186
-Sleep,Q16E,Took a nap (past 7 days),,3 days,Total,2692
-Sleep,Q16E,Took a nap (past 7 days),,4 days,Cis Men,386
-Sleep,Q16E,Took a nap (past 7 days),,4 days,Cis Women,1094
-Sleep,Q16E,Took a nap (past 7 days),,4 days,TGNC,127
-Sleep,Q16E,Took a nap (past 7 days),,4 days,Total,1623
-Sleep,Q16E,Took a nap (past 7 days),,5 days,Cis Men,262
-Sleep,Q16E,Took a nap (past 7 days),,5 days,Cis Women,885
-Sleep,Q16E,Took a nap (past 7 days),,5 days,TGNC,69
-Sleep,Q16E,Took a nap (past 7 days),,5 days,Total,1230
-Sleep,Q16E,Took a nap (past 7 days),,6 days,Cis Men,129
-Sleep,Q16E,Took a nap (past 7 days),,6 days,Cis Women,424
-Sleep,Q16E,Took a nap (past 7 days),,6 days,TGNC,40
-Sleep,Q16E,Took a nap (past 7 days),,6 days,Total,602
-Sleep,Q16E,Took a nap (past 7 days),,7 days,Cis Men,205
-Sleep,Q16E,Took a nap (past 7 days),,7 days,Cis Women,765
-Sleep,Q16E,Took a nap (past 7 days),,7 days,TGNC,56
-Sleep,Q16E,Took a nap (past 7 days),,7 days,Total,1036
-Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),,Less than 30 minutes,Cis Men,713
-Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),,Less than 30 minutes,Cis Women,1585
-Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),,Less than 30 minutes,TGNC,143
-Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),,Less than 30 minutes,Total,2468
-Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),,30-59 minutes,Cis Men,1893
-Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),,30-59 minutes,Cis Women,4739
-Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),,30-59 minutes,TGNC,442
-Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),,30-59 minutes,Total,7136
-Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),,60-119 minutes,Cis Men,1152
-Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),,60-119 minutes,Cis Women,3296
-Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),,60-119 minutes,TGNC,361
-Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),,60-119 minutes,Total,4854
-Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),,2 hours or more,Cis Men,270
-Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),,2 hours or more,Cis Women,1190
-Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),,2 hours or more,TGNC,166
-Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),,2 hours or more,Total,1648
+Demographics,80,What is your approximate cumulative grade average?,14.0,Cis Men,226
+Demographics,80,What is your approximate cumulative grade average?,14.0,Cis Women,619
+Demographics,80,What is your approximate cumulative grade average?,14.0,TGNC,82
+Demographics,80,What is your approximate cumulative grade average?,14.0,Total,949
+Sleep,Q13,Time to fall asleep at night once you close your eyes,Under 5 minutes,Cis Men,757
+Sleep,Q13,Time to fall asleep at night once you close your eyes,Under 5 minutes,Cis Women,1406
+Sleep,Q13,Time to fall asleep at night once you close your eyes,Under 5 minutes,TGNC,107
+Sleep,Q13,Time to fall asleep at night once you close your eyes,Under 5 minutes,Total,2286
+Sleep,Q13,Time to fall asleep at night once you close your eyes,5-15 minutes,Cis Men,2497
+Sleep,Q13,Time to fall asleep at night once you close your eyes,5-15 minutes,Cis Women,5580
+Sleep,Q13,Time to fall asleep at night once you close your eyes,5-15 minutes,TGNC,464
+Sleep,Q13,Time to fall asleep at night once you close your eyes,5-15 minutes,Total,8611
+Sleep,Q13,Time to fall asleep at night once you close your eyes,16-30 minutes,Cis Men,1876
+Sleep,Q13,Time to fall asleep at night once you close your eyes,16-30 minutes,Cis Women,4734
+Sleep,Q13,Time to fall asleep at night once you close your eyes,16-30 minutes,TGNC,472
+Sleep,Q13,Time to fall asleep at night once you close your eyes,16-30 minutes,Total,7152
+Sleep,Q13,Time to fall asleep at night once you close your eyes,31-60 minutes,Cis Men,1101
+Sleep,Q13,Time to fall asleep at night once you close your eyes,31-60 minutes,Cis Women,3247
+Sleep,Q13,Time to fall asleep at night once you close your eyes,31-60 minutes,TGNC,414
+Sleep,Q13,Time to fall asleep at night once you close your eyes,31-60 minutes,Total,4833
+Sleep,Q13,Time to fall asleep at night once you close your eyes,Over 1 hour,Cis Men,499
+Sleep,Q13,Time to fall asleep at night once you close your eyes,Over 1 hour,Cis Women,1704
+Sleep,Q13,Time to fall asleep at night once you close your eyes,Over 1 hour,TGNC,289
+Sleep,Q13,Time to fall asleep at night once you close your eyes,Over 1 hour,Total,2526
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),Less than 4 hours,Cis Men,82
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),Less than 4 hours,Cis Women,219
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),Less than 4 hours,TGNC,26
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),Less than 4 hours,Total,333
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),4 hours,Cis Men,209
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),4 hours,Cis Women,578
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),4 hours,TGNC,67
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),4 hours,Total,866
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),5 hours,Cis Men,734
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),5 hours,Cis Women,1966
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),5 hours,TGNC,255
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),5 hours,Total,3003
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),6 hours,Cis Men,1739
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),6 hours,Cis Women,4363
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),6 hours,TGNC,473
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),6 hours,Total,6640
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),7 hours,Cis Men,2414
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),7 hours,Cis Women,5258
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),7 hours,TGNC,552
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),7 hours,Total,8303
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),8 hours,Cis Men,1258
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),8 hours,Cis Women,3229
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),8 hours,TGNC,272
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),8 hours,Total,4798
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),9 hours,Cis Men,240
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),9 hours,Cis Women,776
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),9 hours,TGNC,74
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),9 hours,Total,1101
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),10 or more hours,Cis Men,62
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),10 or more hours,Cis Women,285
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),10 or more hours,TGNC,29
+Sleep,Q14,Average sleep on a weeknight over the last 2 weeks (excluding naps),10 or more hours,Total,377
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),Less than 4 hours,Cis Men,73
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),Less than 4 hours,Cis Women,186
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),Less than 4 hours,TGNC,20
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),Less than 4 hours,Total,286
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),4 hours,Cis Men,130
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),4 hours,Cis Women,389
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),4 hours,TGNC,40
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),4 hours,Total,563
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),5 hours,Cis Men,338
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),5 hours,Cis Women,1046
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),5 hours,TGNC,113
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),5 hours,Total,1517
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),6 hours,Cis Men,786
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),6 hours,Cis Women,2166
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),6 hours,TGNC,181
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),6 hours,Total,3174
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),7 hours,Cis Men,1311
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),7 hours,Cis Women,3274
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),7 hours,TGNC,281
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),7 hours,Total,4912
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),8 hours,Cis Men,2102
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),8 hours,Cis Women,4763
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),8 hours,TGNC,461
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),8 hours,Total,7394
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),9 hours,Cis Men,1410
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),9 hours,Cis Women,3261
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),9 hours,TGNC,391
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),9 hours,Total,5113
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),10 or more hours,Cis Men,586
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),10 or more hours,Cis Women,1583
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),10 or more hours,TGNC,259
+Sleep,Q15,Average sleep on a weekend night over the last 2 weeks (excluding naps),10 or more hours,Total,2450
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),0 days,Cis Men,3661
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),0 days,Cis Women,7477
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),0 days,TGNC,750
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),0 days,Total,11987
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),1 day,Cis Men,1287
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),1 day,Cis Women,3200
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),1 day,TGNC,319
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),1 day,Total,4857
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),2 days,Cis Men,835
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),2 days,Cis Women,2577
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),2 days,TGNC,289
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),2 days,Total,3746
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),3 days,Cis Men,407
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),3 days,Cis Women,1409
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),3 days,TGNC,159
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),3 days,Total,1999
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),4 days,Cis Men,184
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),4 days,Cis Women,739
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),4 days,TGNC,92
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),4 days,Total,1026
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),5 days,Cis Men,154
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),5 days,Cis Women,551
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),5 days,TGNC,64
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),5 days,Total,781
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),6 days,Cis Men,61
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),6 days,Cis Women,231
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),6 days,TGNC,17
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),6 days,Total,314
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),7 days,Cis Men,132
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),7 days,Cis Women,463
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),7 days,TGNC,57
+Sleep,Q16A,Wake up too early and couldn't get back to sleep (past 7 days),7 days,Total,660
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),0 days,Cis Men,426
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),0 days,Cis Women,396
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),0 days,TGNC,35
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),0 days,Total,871
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),1 day,Cis Men,646
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),1 day,Cis Women,772
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),1 day,TGNC,63
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),1 day,Total,1495
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),2 days,Cis Men,1296
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),2 days,Cis Women,1992
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),2 days,TGNC,177
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),2 days,Total,3486
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),3 days,Cis Men,1284
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),3 days,Cis Women,2656
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),3 days,TGNC,210
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),3 days,Total,4201
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),4 days,Cis Men,891
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),4 days,Cis Women,2407
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),4 days,TGNC,223
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),4 days,Total,3549
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),5 days,Cis Men,855
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),5 days,Cis Women,2653
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),5 days,TGNC,244
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),5 days,Total,3787
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),6 days,Cis Men,332
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),6 days,Cis Women,1333
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),6 days,TGNC,162
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),6 days,Total,1848
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),7 days,Cis Men,999
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),7 days,Cis Women,4448
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),7 days,TGNC,633
+Sleep,Q16B,Felt tired or sleepy during the day (past 7 days),7 days,Total,6153
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),0 days,Cis Men,2456
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),0 days,Cis Women,4761
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),0 days,TGNC,389
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),0 days,Total,7673
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),1 day,Cis Men,1644
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),1 day,Cis Women,3708
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),1 day,TGNC,329
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),1 day,Total,5738
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),2 days,Cis Men,933
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),2 days,Cis Women,2612
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),2 days,TGNC,267
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),2 days,Total,3850
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),3 days,Cis Men,522
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),3 days,Cis Women,1639
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),3 days,TGNC,177
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),3 days,Total,2365
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),4 days,Cis Men,320
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),4 days,Cis Women,1062
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),4 days,TGNC,136
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),4 days,Total,1536
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),5 days,Cis Men,306
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),5 days,Cis Women,1003
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),5 days,TGNC,151
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),5 days,Total,1474
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),6 days,Cis Men,148
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),6 days,Cis Women,489
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),6 days,TGNC,74
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),6 days,Total,721
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),7 days,Cis Men,392
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),7 days,Cis Women,1371
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),7 days,TGNC,223
+Sleep,Q16C,Extremely hard time falling asleep (past 7 days),7 days,Total,2012
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),0 days,Cis Men,850
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),0 days,Cis Women,3114
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),0 days,TGNC,385
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),0 days,Total,4409
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),1 day,Cis Men,1057
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),1 day,Cis Women,3357
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),1 day,TGNC,374
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),1 day,Total,4828
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),2 days,Cis Men,1358
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),2 days,Cis Women,3387
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),2 days,TGNC,363
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),2 days,Total,5160
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),3 days,Cis Men,976
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),3 days,Cis Women,2516
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),3 days,TGNC,202
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),3 days,Total,3724
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),4 days,Cis Men,853
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),4 days,Cis Women,1661
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),4 days,TGNC,184
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),4 days,Total,2733
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),5 days,Cis Men,809
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),5 days,Cis Women,1398
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),5 days,TGNC,128
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),5 days,Total,2354
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),6 days,Cis Men,465
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),6 days,Cis Women,677
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),6 days,TGNC,71
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),6 days,Total,1222
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),7 days,Cis Men,356
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),7 days,Cis Women,536
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),7 days,TGNC,39
+Sleep,Q16D,Got enough sleep to feel rested (past 7 days),7 days,Total,943
+Sleep,Q16E,Took a nap (past 7 days),0 days,Cis Men,2674
+Sleep,Q16E,Took a nap (past 7 days),0 days,Cis Women,5785
+Sleep,Q16E,Took a nap (past 7 days),0 days,TGNC,631
+Sleep,Q16E,Took a nap (past 7 days),0 days,Total,9188
+Sleep,Q16E,Took a nap (past 7 days),1 day,Cis Men,1388
+Sleep,Q16E,Took a nap (past 7 days),1 day,Cis Women,3161
+Sleep,Q16E,Took a nap (past 7 days),1 day,TGNC,345
+Sleep,Q16E,Took a nap (past 7 days),1 day,Total,4944
+Sleep,Q16E,Took a nap (past 7 days),2 days,Cis Men,1040
+Sleep,Q16E,Took a nap (past 7 days),2 days,Cis Women,2690
+Sleep,Q16E,Took a nap (past 7 days),2 days,TGNC,294
+Sleep,Q16E,Took a nap (past 7 days),2 days,Total,4057
+Sleep,Q16E,Took a nap (past 7 days),3 days,Cis Men,639
+Sleep,Q16E,Took a nap (past 7 days),3 days,Cis Women,1842
+Sleep,Q16E,Took a nap (past 7 days),3 days,TGNC,186
+Sleep,Q16E,Took a nap (past 7 days),3 days,Total,2692
+Sleep,Q16E,Took a nap (past 7 days),4 days,Cis Men,386
+Sleep,Q16E,Took a nap (past 7 days),4 days,Cis Women,1094
+Sleep,Q16E,Took a nap (past 7 days),4 days,TGNC,127
+Sleep,Q16E,Took a nap (past 7 days),4 days,Total,1623
+Sleep,Q16E,Took a nap (past 7 days),5 days,Cis Men,262
+Sleep,Q16E,Took a nap (past 7 days),5 days,Cis Women,885
+Sleep,Q16E,Took a nap (past 7 days),5 days,TGNC,69
+Sleep,Q16E,Took a nap (past 7 days),5 days,Total,1230
+Sleep,Q16E,Took a nap (past 7 days),6 days,Cis Men,129
+Sleep,Q16E,Took a nap (past 7 days),6 days,Cis Women,424
+Sleep,Q16E,Took a nap (past 7 days),6 days,TGNC,40
+Sleep,Q16E,Took a nap (past 7 days),6 days,Total,602
+Sleep,Q16E,Took a nap (past 7 days),7 days,Cis Men,205
+Sleep,Q16E,Took a nap (past 7 days),7 days,Cis Women,765
+Sleep,Q16E,Took a nap (past 7 days),7 days,TGNC,56
+Sleep,Q16E,Took a nap (past 7 days),7 days,Total,1036
+Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),Less than 30 minutes,Cis Men,713
+Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),Less than 30 minutes,Cis Women,1585
+Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),Less than 30 minutes,TGNC,143
+Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),Less than 30 minutes,Total,2468
+Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),30-59 minutes,Cis Men,1893
+Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),30-59 minutes,Cis Women,4739
+Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),30-59 minutes,TGNC,442
+Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),30-59 minutes,Total,7136
+Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),60-119 minutes,Cis Men,1152
+Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),60-119 minutes,Cis Women,3296
+Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),60-119 minutes,TGNC,361
+Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),60-119 minutes,Total,4854
+Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),2 hours or more,Cis Men,270
+Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),2 hours or more,Cis Women,1190
+Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),2 hours or more,TGNC,166
+Sleep,Q16F,Average nap length (only includes students who napped 1-7 days),2 hours or more,Total,1648
