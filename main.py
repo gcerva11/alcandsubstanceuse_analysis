@@ -17,30 +17,30 @@ def print_block(title: str):
 def main():
     dataset = build_dataset_from_data(data)
 
-    # Debug checks (VERY helpful)
+    # Debug checks
     print("Total records:", len(dataset.records))
     print("GPA Total rows:", len(dataset.by_qid_and_group("80", "Total")))
     print("Alcohol Total rows:", len(dataset.by_qid_and_group("22B12", "Total")))
 
-    # ----- Alcohol usage (example: 22B12) -----
+    # Alcohol usage qs starting at 22B12)
     print("The response scores were averaged for each group, with the options being: \nNever	0, \nOnce or twice	1, \nMonthly	2, \nWeekly	3, \nDaily or almost daily 4, ")
-    print_block("ALCOHOL USAGE (22B12)")
+    print_block("Alcohol Usage Average Response")
     for g in GROUPS:
         print(f"{g}: {average_frequency_score(dataset, '22B12', g):.2f}")
 
-    # ----- Year in school (72) -----
-    print_block("YEAR IN SCHOOL (72)")
+    # Year in school q 72
+    print_block("Ratio of Men and Women Under and Upper Classes")
     for g in GROUPS:
         p = upper_under_percentages(dataset, "72", g)
         print(f"{g}: Underclass {p['Underclassmen']:.2f}% | Upperclass {p['Upperclassmen']:.2f}%")
 
-    # ----- GPA (80) -----
-    print_block("GPA (80)")
+    # GPA q 80
+    print_block("GPA Averages per group")
     for g in GROUPS:
         print(f"{g}: {average_gpa(dataset, '80', g):.2f}")
 
-    # ----- COMMUNITY HARM (example: 22L1) -----
-    print_block("COMMUNITY HARM (22L1)")
+    # Community harm, q 22L1
+    print_block("Community Harm Percentage")
 
     harm_values = {}
 
@@ -52,8 +52,8 @@ def main():
     print("\nGender Disparity (Harm):",
           f"{disparity_index(harm_values):.2f}% difference")
 
-    # ----- ACADEMIC IMPACT RATIO -----
-    print_block("ACADEMIC IMPACT RATIO")
+    # Academic Impact Ratio
+    print_block("Academic Impact Ratio")
 
     ratio_values = {}
 
