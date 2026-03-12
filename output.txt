@@ -37,5 +37,5 @@ Total: 0.06 harm-to-risk ratio
 Gender Disparity (Impact Ratio): 0.06
 
 SLEEP HOURS
-Average Sleep on Weekdays (Total):6.67
-Average Sleep on Weekends:7.63
+Average Sleep on Weekdays (Total): 6.67
+Average Sleep on Weekends: 7.63
