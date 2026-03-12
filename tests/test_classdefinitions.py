@@ -1,7 +1,7 @@
 import unittest
 from classdefinitions import UsageRecord, Dataset
 
-
+#done by lupe
 class TestClassDefinitions(unittest.TestCase):
 
     def test_usage_record_class_level_under(self):
@@ -17,7 +17,6 @@ class TestClassDefinitions(unittest.TestCase):
         self.assertEqual(r.class_level(), "Other")
 
     def test_dataset_by_qid_and_group_filters(self):
-        # Build UsageRecord objects directly (this matches how Dataset is designed)
         records = [
             UsageRecord("Demographics", "72", "What is your year in school?", 1, "1st year undergraduate", "Total", 10),
             UsageRecord("Demographics", "72", "What is your year in school?", 2, "2nd year undergraduate", "Total", 20),

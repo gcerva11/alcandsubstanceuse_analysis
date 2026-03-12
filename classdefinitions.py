@@ -1,3 +1,4 @@
+#done by lupe
 class UsageRecord:
     def __init__(self, section, question_id, question_text, response_code, response, group, count):
         self.section = section
@@ -34,7 +35,7 @@ class UsageRecord:
     def __repr__(self):
         return f"UsageRecord(qid={self.question_id}, response={self.response}, group={self.group}, count={self.count})"
 
-
+#also done by lupe
 class Dataset:
     def __init__(self, records):
         self.records = records

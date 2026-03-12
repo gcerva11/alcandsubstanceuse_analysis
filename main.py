@@ -29,7 +29,7 @@ def main():
         print(f"{g}: {average_frequency_score(dataset, '22B12', g):.2f}")
 
     # Year in school q 72
-    print_block("Ratio of Men and Women Under and Upper Classes")
+    print_block("Ratio of Men and Women that are affected by substance use seperated by underclassmen and upperclassmen")
     for g in GROUPS:
         p = upper_under_percentages(dataset, "72", g)
         print(f"{g}: Underclass {p['Underclassmen']:.2f}% | Upperclass {p['Upperclassmen']:.2f}%")
@@ -40,7 +40,7 @@ def main():
         print(f"{g}: {average_gpa(dataset, '80', g):.2f}")
 
     # Community harm, q 22L1
-    print_block("Community Harm Percentage")
+    print_block("Community Harm Percentage, questions regarding harm to their community due to substance abuse")
 
     harm_values = {}
 
@@ -53,7 +53,7 @@ def main():
           f"{disparity_index(harm_values):.2f}% difference")
 
     # Academic Impact Ratio
-    print_block("Academic Impact Ratio")
+    print_block("Academic Impact Ratio, which averages the responses of people who responded that have been affected academically by using.")
 
     ratio_values = {}
 

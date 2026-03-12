@@ -1,5 +1,5 @@
 from dataset.dictionary import data
-
+#done by lupe
 def community_harm_percent(dataset, qid: str, group: str = "Total") -> float:
     total = 0
     harm = 0

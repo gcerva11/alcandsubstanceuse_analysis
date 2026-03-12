@@ -1,5 +1,5 @@
 from dataset.dictionary import data
-
+#done by lupe
 FREQUENCY_SCORE = {
     "Never": 0,
     "Once or twice": 1,

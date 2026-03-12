@@ -1,10 +1,10 @@
 import unittest
-
 from classdefinitions import UsageRecord, Dataset
 from dataset.scripts.usage_stats import average_frequency_score
 from dataset.scripts.demographic_stats import classify_year
 from dataset.scripts.academic_stats import average_gpa
 
+#done by lupe
 def make_record(qid: str, response: str, group: str, count: int):
     return UsageRecord(
         section="TestSection",
@@ -15,7 +15,7 @@ def make_record(qid: str, response: str, group: str, count: int):
         group=group,
         count=count
     )
-
+#done by lupe
 class TestUsageRecord(unittest.TestCase):
 
     def test_is_year_in_school_true(self):
