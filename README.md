@@ -4,7 +4,7 @@ What does the program do?
 Each file and what it does for out project:
 dictionary.py
 This file has the purpose of reading the master.data.cleaned.csv and created a global dictionary that we called 
-"data", UsageRecord objects, aswell as a dataset object that allows the methods to filter and compute properly.
+"data", UsageRecord objects, as well as a dataset object that allows the methods to filter and compute properly.
 The data gets stored by question id, response, and then group. This was necessary because our data was not formatted 
 properly, as well as allows for a easy and
 way to acess the data.
